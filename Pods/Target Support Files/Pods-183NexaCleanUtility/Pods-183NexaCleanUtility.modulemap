@@ -1,0 +1,6 @@
+framework module Pods_183NexaCleanUtility {
+  umbrella header "Pods-183NexaCleanUtility-umbrella.h"
+
+  export *
+  module * { export * }
+}
