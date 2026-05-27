@@ -56,6 +56,20 @@
 		300303D22FC0358E0058EE20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003039A2FC0358E0058EE20 /* ContentView.swift */; };
 		300303D32FC0358E0058EE20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300303A02FC0358E0058EE20 /* SceneDelegate.swift */; };
 		300303D42FC0358E0058EE20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300303A12FC0358E0058EE20 /* ViewController.swift */; };
+		303530C02FC6EDCC0062964D /* LaunchFlowSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303530B82FC6EDCC0062964D /* LaunchFlowSecrets.swift */; };
+		303530C12FC6EDCC0062964D /* RootWindowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303530BD2FC6EDCC0062964D /* RootWindowPresenter.swift */; };
+		303530C22FC6EDCC0062964D /* DeferredLaunchCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303530B32FC6EDCC0062964D /* DeferredLaunchCanvas.swift */; };
+		303530C32FC6EDCC0062964D /* LaunchSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303530B92FC6EDCC0062964D /* LaunchSessionStore.swift */; };
+		303530C42FC6EDCC0062964D /* LaunchStagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303530BA2FC6EDCC0062964D /* LaunchStagingState.swift */; };
+		303530C52FC6EDCC0062964D /* RemoteEntryProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303530BB2FC6EDCC0062964D /* RemoteEntryProbe.swift */; };
+		303530C62FC6EDCC0062964D /* LaunchFlowResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303530B72FC6EDCC0062964D /* LaunchFlowResolver.swift */; };
+		303530C72FC6EDCC0062964D /* LaunchFlowDebugOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303530B52FC6EDCC0062964D /* LaunchFlowDebugOptions.swift */; };
+		303530C82FC6EDCC0062964D /* CalendarGateEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303530B22FC6EDCC0062964D /* CalendarGateEvaluator.swift */; };
+		303530C92FC6EDCC0062964D /* LaunchDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303530B42FC6EDCC0062964D /* LaunchDestination.swift */; };
+		303530CA2FC6EDCC0062964D /* RemoteEntryURLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303530BC2FC6EDCC0062964D /* RemoteEntryURLComposer.swift */; };
+		303530CB2FC6EDCC0062964D /* WebDocumentSurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303530BE2FC6EDCC0062964D /* WebDocumentSurfaceView.swift */; };
+		303530CC2FC6EDCC0062964D /* LaunchFlowLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303530B62FC6EDCC0062964D /* LaunchFlowLogger.swift */; };
+		303530CE2FC6EDCF0062964D /* AppMarketingCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303530CD2FC6EDCF0062964D /* AppMarketingCopy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -111,6 +125,20 @@
 		3003039E2FC0358E0058EE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		300303A02FC0358E0058EE20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		300303A12FC0358E0058EE20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		303530B22FC6EDCC0062964D /* CalendarGateEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGateEvaluator.swift; sourceTree = "<group>"; };
+		303530B32FC6EDCC0062964D /* DeferredLaunchCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredLaunchCanvas.swift; sourceTree = "<group>"; };
+		303530B42FC6EDCC0062964D /* LaunchDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDestination.swift; sourceTree = "<group>"; };
+		303530B52FC6EDCC0062964D /* LaunchFlowDebugOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowDebugOptions.swift; sourceTree = "<group>"; };
+		303530B62FC6EDCC0062964D /* LaunchFlowLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowLogger.swift; sourceTree = "<group>"; };
+		303530B72FC6EDCC0062964D /* LaunchFlowResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowResolver.swift; sourceTree = "<group>"; };
+		303530B82FC6EDCC0062964D /* LaunchFlowSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowSecrets.swift; sourceTree = "<group>"; };
+		303530B92FC6EDCC0062964D /* LaunchSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSessionStore.swift; sourceTree = "<group>"; };
+		303530BA2FC6EDCC0062964D /* LaunchStagingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchStagingState.swift; sourceTree = "<group>"; };
+		303530BB2FC6EDCC0062964D /* RemoteEntryProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryProbe.swift; sourceTree = "<group>"; };
+		303530BC2FC6EDCC0062964D /* RemoteEntryURLComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryURLComposer.swift; sourceTree = "<group>"; };
+		303530BD2FC6EDCC0062964D /* RootWindowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWindowPresenter.swift; sourceTree = "<group>"; };
+		303530BE2FC6EDCC0062964D /* WebDocumentSurfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebDocumentSurfaceView.swift; sourceTree = "<group>"; };
+		303530CD2FC6EDCF0062964D /* AppMarketingCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMarketingCopy.swift; sourceTree = "<group>"; };
 		56692CD1E6823B4A8040C8DD /* Pods-183NexaCleanUtility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-183NexaCleanUtility.release.xcconfig"; path = "Target Support Files/Pods-183NexaCleanUtility/Pods-183NexaCleanUtility.release.xcconfig"; sourceTree = "<group>"; };
 		86710C531E5D85C30540A7C8 /* Pods-183NexaCleanUtility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-183NexaCleanUtility.debug.xcconfig"; path = "Target Support Files/Pods-183NexaCleanUtility/Pods-183NexaCleanUtility.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -310,6 +338,7 @@
 			isa = PBXGroup;
 			children = (
 				300303912FC0358E0058EE20 /* privacy_policy.md */,
+				303530CD2FC6EDCF0062964D /* AppMarketingCopy.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -341,8 +370,29 @@
 				3003039F2FC0358E0058EE20 /* Main.storyboard */,
 				300303A02FC0358E0058EE20 /* SceneDelegate.swift */,
 				300303A12FC0358E0058EE20 /* ViewController.swift */,
+				303530BF2FC6EDCC0062964D /* LaunchFlow */,
 			);
 			path = 183NexaCleanUtility;
+			sourceTree = "<group>";
+		};
+		303530BF2FC6EDCC0062964D /* LaunchFlow */ = {
+			isa = PBXGroup;
+			children = (
+				303530B22FC6EDCC0062964D /* CalendarGateEvaluator.swift */,
+				303530B32FC6EDCC0062964D /* DeferredLaunchCanvas.swift */,
+				303530B42FC6EDCC0062964D /* LaunchDestination.swift */,
+				303530B52FC6EDCC0062964D /* LaunchFlowDebugOptions.swift */,
+				303530B62FC6EDCC0062964D /* LaunchFlowLogger.swift */,
+				303530B72FC6EDCC0062964D /* LaunchFlowResolver.swift */,
+				303530B82FC6EDCC0062964D /* LaunchFlowSecrets.swift */,
+				303530B92FC6EDCC0062964D /* LaunchSessionStore.swift */,
+				303530BA2FC6EDCC0062964D /* LaunchStagingState.swift */,
+				303530BB2FC6EDCC0062964D /* RemoteEntryProbe.swift */,
+				303530BC2FC6EDCC0062964D /* RemoteEntryURLComposer.swift */,
+				303530BD2FC6EDCC0062964D /* RootWindowPresenter.swift */,
+				303530BE2FC6EDCC0062964D /* WebDocumentSurfaceView.swift */,
+			);
+			path = LaunchFlow;
 			sourceTree = "<group>";
 		};
 		805CBF4317036B58D6D1654A /* Pods */ = {
@@ -463,6 +513,7 @@
 				300303A82FC0358E0058EE20 /* AppElevation.swift in Sources */,
 				300303A92FC0358E0058EE20 /* AppScreenChrome.swift in Sources */,
 				300303AA2FC0358E0058EE20 /* CustomCells.swift in Sources */,
+				303530CE2FC6EDCF0062964D /* AppMarketingCopy.swift in Sources */,
 				300303AB2FC0358E0058EE20 /* AchievementBannerView.swift in Sources */,
 				300303AC2FC0358E0058EE20 /* ActivityHeatmapView.swift in Sources */,
 				300303AD2FC0358E0058EE20 /* LayeredBackgroundView.swift in Sources */,
@@ -475,6 +526,19 @@
 				300303B42FC0358E0058EE20 /* TodayPlanCardView.swift in Sources */,
 				300303B52FC0358E0058EE20 /* WorkoutPresetsSectionView.swift in Sources */,
 				300303B62FC0358E0058EE20 /* BackupDocument.swift in Sources */,
+				303530C02FC6EDCC0062964D /* LaunchFlowSecrets.swift in Sources */,
+				303530C12FC6EDCC0062964D /* RootWindowPresenter.swift in Sources */,
+				303530C22FC6EDCC0062964D /* DeferredLaunchCanvas.swift in Sources */,
+				303530C32FC6EDCC0062964D /* LaunchSessionStore.swift in Sources */,
+				303530C42FC6EDCC0062964D /* LaunchStagingState.swift in Sources */,
+				303530C52FC6EDCC0062964D /* RemoteEntryProbe.swift in Sources */,
+				303530C62FC6EDCC0062964D /* LaunchFlowResolver.swift in Sources */,
+				303530C72FC6EDCC0062964D /* LaunchFlowDebugOptions.swift in Sources */,
+				303530C82FC6EDCC0062964D /* CalendarGateEvaluator.swift in Sources */,
+				303530C92FC6EDCC0062964D /* LaunchDestination.swift in Sources */,
+				303530CA2FC6EDCC0062964D /* RemoteEntryURLComposer.swift in Sources */,
+				303530CB2FC6EDCC0062964D /* WebDocumentSurfaceView.swift in Sources */,
+				303530CC2FC6EDCC0062964D /* LaunchFlowLogger.swift in Sources */,
 				300303B72FC0358E0058EE20 /* Notification+DataReset.swift in Sources */,
 				300303B82FC0358E0058EE20 /* WorkoutModels.swift in Sources */,
 				300303B92FC0358E0058EE20 /* WorkoutPresets.swift in Sources */,
@@ -554,7 +618,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ata.n3x5cl35n7t1l1t5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -595,7 +659,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ata.n3x5cl35n7t1l1t5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
